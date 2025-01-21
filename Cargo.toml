@@ -1,0 +1,17 @@
+[package]
+name = "dataengineering-deduplication"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.1", features = ["derive"] }
+walkdir = "2.3.2"
+md5 = "0.7.0"
+rayon = "1.7.0"
+indicatif = {version="0.17.0", features = ["rayon"]}
+
+[dev-dependencies]
+assert_cmd = "2.0.10"
+predicates = "2.1.2"
+
+
